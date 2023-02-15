@@ -1,0 +1,44 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+ul {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: paleturquoise;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+li {
+  padding: 5px;
+  float: left;
+  background: paleturquoise;
+}
+
+li a {
+  display: block;
+  color: darkmagenta;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+footer {
+  background-color: darkmagenta;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: paleturquoise;
+}
